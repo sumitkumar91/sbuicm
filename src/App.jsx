@@ -267,7 +267,22 @@ const IndianClassicalMusicClub = () => {
 
 
   return (
-    <div className="container" style={{ width: '100vw', margin: 0, padding: 0, overflowX: 'hidden' }}>
+    <div className="container" style={{ width: '100vw', margin: 0, padding: 0 }}>
+      {/* Archive Header Banner */}
+      <aside className="archive-header-banner" aria-label="Archived Website">
+        <div className="archive-header-content">
+          <div className="archive-header-badge">
+            Archived Website
+          </div>
+          <p className="archive-text">
+            This website is an archived version of the SBU Indian Classical Music website, preserved for portfolio and historical reference. It is independently hosted and reflects the website as it existed during my involvement.
+          </p>
+          <p className="archive-text sub-text">
+            This archive is not the club’s current official website and is not affiliated with, endorsed by, or maintained by SBUICM or Stony Brook University. For current information, please refer to the club’s official channels.
+          </p>
+        </div>
+      </aside>
+
       {/* Header */}
       <header className="header">
         <nav className="nav">
